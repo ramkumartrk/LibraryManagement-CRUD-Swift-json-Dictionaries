@@ -10,9 +10,9 @@
 		A8190AD223DFF1CE001C02F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8190AD123DFF1CE001C02F2 /* AppDelegate.swift */; };
 		A8190AD423DFF1CE001C02F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8190AD323DFF1CE001C02F2 /* SceneDelegate.swift */; };
 		A8190AD623DFF1CE001C02F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8190AD523DFF1CE001C02F2 /* ViewController.swift */; };
-		A8190AD923DFF1CE001C02F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8190AD723DFF1CE001C02F2 /* Main.storyboard */; };
 		A8190ADB23DFF1CF001C02F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8190ADA23DFF1CF001C02F2 /* Assets.xcassets */; };
-		A8190ADE23DFF1CF001C02F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8190ADC23DFF1CF001C02F2 /* LaunchScreen.storyboard */; };
+		A8190AE623DFF4EC001C02F2 /* AddNewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8190AE523DFF4EC001C02F2 /* AddNewBookViewController.swift */; };
+		A8190AE823DFF510001C02F2 /* AllBooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8190AE723DFF510001C02F2 /* AllBooksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		A8190AD123DFF1CE001C02F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8190AD323DFF1CE001C02F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8190AD523DFF1CE001C02F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A8190AD823DFF1CE001C02F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8190ADA23DFF1CF001C02F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A8190ADD23DFF1CF001C02F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8190ADF23DFF1CF001C02F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8190AE523DFF4EC001C02F2 /* AddNewBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBookViewController.swift; sourceTree = "<group>"; };
+		A8190AE723DFF510001C02F2 /* AllBooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBooksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +59,10 @@
 				A8190AD123DFF1CE001C02F2 /* AppDelegate.swift */,
 				A8190AD323DFF1CE001C02F2 /* SceneDelegate.swift */,
 				A8190AD523DFF1CE001C02F2 /* ViewController.swift */,
-				A8190AD723DFF1CE001C02F2 /* Main.storyboard */,
 				A8190ADA23DFF1CF001C02F2 /* Assets.xcassets */,
-				A8190ADC23DFF1CF001C02F2 /* LaunchScreen.storyboard */,
 				A8190ADF23DFF1CF001C02F2 /* Info.plist */,
+				A8190AE523DFF4EC001C02F2 /* AddNewBookViewController.swift */,
+				A8190AE723DFF510001C02F2 /* AllBooksViewController.swift */,
 			);
 			path = "LibraryManagement-Swift-Json";
 			sourceTree = "<group>";
@@ -125,9 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8190ADE23DFF1CF001C02F2 /* LaunchScreen.storyboard in Resources */,
 				A8190ADB23DFF1CF001C02F2 /* Assets.xcassets in Resources */,
-				A8190AD923DFF1CE001C02F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,30 +138,13 @@
 			files = (
 				A8190AD623DFF1CE001C02F2 /* ViewController.swift in Sources */,
 				A8190AD223DFF1CE001C02F2 /* AppDelegate.swift in Sources */,
+				A8190AE823DFF510001C02F2 /* AllBooksViewController.swift in Sources */,
+				A8190AE623DFF4EC001C02F2 /* AddNewBookViewController.swift in Sources */,
 				A8190AD423DFF1CE001C02F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A8190AD723DFF1CE001C02F2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8190AD823DFF1CE001C02F2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A8190ADC23DFF1CF001C02F2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8190ADD23DFF1CF001C02F2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A8190AE023DFF1CF001C02F2 /* Debug */ = {
